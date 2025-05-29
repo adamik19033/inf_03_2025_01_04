@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT model FROM produkt;
+Zapytanie 2: SELECT model, nazwa, cena, nazwa_pliku FROM buty JOIN produkt USING(model);
+Zapytanie 3: SELECT nazwa, cena, kolor, kod_produktu, material, nazwa_pliku FROM buty JOIN produkt USING(model) WHERE model = "P-59-03";
+Zapytanie 4: INSERT INTO kategorie VALUES (NULL, 'Sandały');
